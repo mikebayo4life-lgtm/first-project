@@ -1251,10 +1251,17 @@
      .flutter h1 a {
          font-size: 50px;
      }
-     .rin{
-        width: 100%;
-        position: static;
-        flex-direction: column;
+
+     .rin {
+         width: 100%;
+         position: static;
+         flex-direction: column;
+     }
+
+     .x {
+         width: 100%;
+         position: static;
+         flex-direction: column;
      }
 
      .bem {
@@ -1462,6 +1469,12 @@
          height: 500px;
      }
 
+     .x {
+         width: 100%;
+         position: static;
+         flex-direction: column;
+     }
+
      .pie h1 {
          font-size: 50px;
      }
@@ -1493,10 +1506,11 @@
          position: static;
          flex-direction: column;
      }
-          .rin{
-        width: 100%;
-        position: static;
-        flex-direction: column;
+
+     .rin {
+         width: 100%;
+         position: static;
+         flex-direction: column;
      }
 
      .play p {
@@ -1654,6 +1668,12 @@
      .play p {
          font-size: 2rem;
          line-height: 50px;
+     }
+
+     .x {
+         width: 100%;
+         position: static;
+         flex-direction: column;
      }
 
      .end h1 {
