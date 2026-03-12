@@ -1,0 +1,1806 @@
+ * {
+     /* padding: 0; */
+     /* margin: 0; */
+     box-sizing: border-box;
+ }
+
+ body {
+     /* background-color: rgba(245, 222, 179, 0.256); */
+ }
+
+ .container {
+     display: flex;
+     justify-content: space-around;
+     background-color: #fff;
+     /* border: 3px solid black; */
+ }
+
+ .flutter h1 a {
+     color: rgb(49, 58, 103);
+     text-decoration: none;
+     font-size: 25px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+
+ .list ul {
+     display: flex;
+     gap: 50px;
+     font-family: sans-serif;
+     font-weight: 550;
+     justify-content: space-evenly;
+     margin: 4%;
+     color: rgb(59, 63, 97);
+     list-style: none;
+     /* text-decoration: none; */
+ }
+
+ .list ul li a {
+     text-decoration: none;
+ }
+
+ button {
+     width: 150px;
+     border-radius: 20px;
+     height: 50px;
+     margin: 2%;
+     background-color: rgb(238, 238, 238);
+     border: none;
+ }
+
+ button:hover {
+     background-color: rgb(59, 63, 97);
+     color: white;
+ }
+
+ .first-pitst {
+     display: none;
+     background-color: white;
+     width: 170px;
+     border-radius: 10px;
+     height: 150px;
+     box-shadow: 2px 2px 30px gray;
+     position: absolute;
+
+ }
+
+ .first-lips {
+     display: none;
+     position: absolute;
+     background-color: white;
+     width: 700px;
+     height: 400px;
+     box-shadow: 2px 2px 30px gray;
+     border-radius: 10px;
+     top: 60px;
+     z-index: 9999;
+ }
+
+ .first-pir {
+     display: none;
+     position: absolute;
+     background-color: white;
+     width: 350px;
+     border-radius: 10px;
+     height: 560px;
+     box-shadow: 2px 2px 30px gray;
+ }
+
+ .first-pit {
+     display: none;
+     position: absolute;
+     background-color: white;
+     width: 150px;
+     border-radius: 10px;
+     height: 100px;
+     box-shadow: 2px 2px 30px gray;
+ }
+
+ .first-pits {
+     display: none;
+     position: absolute;
+     background-color: white;
+     width: 180px;
+     border-radius: 10px;
+     height: 190px;
+     box-shadow: 2px 2px 30px gray;
+ }
+
+ .first button {
+     display: block;
+ }
+
+ .lists {
+     position: relative;
+ }
+
+ .first-list {
+     position: absolute;
+     background-color: white;
+     width: 700px;
+     display: flex;
+     gap: 100px;
+     box-shadow: 2px 2px 30px gray;
+     border-radius: 10px;
+ }
+
+ .first-lips {
+     position: absolute;
+     background-color: white;
+     width: 700px;
+     height: 600px;
+     display: flex;
+     box-shadow: 2px 2px 30px gray;
+     border-radius: 10px;
+ }
+
+ .firm {
+     display: none;
+ }
+
+ .lime {
+     display: none;
+ }
+
+ .first-list a {
+     display: block;
+     text-decoration: none;
+     font-size: 14px;
+     font-family: sans-serif;
+     padding: 10px;
+     font-weight: 600;
+     color: rgb(59, 63, 97);
+ }
+
+ .first-lips a {
+     display: block;
+     text-decoration: none;
+     font-size: 14px;
+     font-family: sans-serif;
+     padding: 10px;
+     font-weight: 600;
+     color: rgb(59, 63, 97);
+ }
+
+ .first-pir a h3 {
+     display: block;
+     text-decoration: none;
+     font-size: 18px;
+     font-family: sans-serif;
+     font-weight: 600;
+     color: rgb(59, 63, 97);
+ }
+
+ .first-pir a {
+     display: block;
+     text-decoration: none;
+     font-size: 14px;
+     font-family: sans-serif;
+     font-weight: 600;
+     color: rgb(59, 63, 97);
+ }
+
+ .first-pit a {
+     display: block;
+     text-decoration: none;
+     font-size: 14px;
+     font-family: sans-serif;
+     padding: 10px;
+     font-weight: 600;
+     color: rgb(59, 63, 97);
+ }
+
+ .first-pitst a {
+     display: block;
+     text-decoration: none;
+     font-size: 14px;
+     font-family: sans-serif;
+     padding: 10px;
+     font-weight: 600;
+     color: rgb(59, 63, 97);
+ }
+
+ .first-pits a {
+     display: block;
+     text-decoration: none;
+     font-size: 14px;
+     font-family: sans-serif;
+     padding: 10px;
+     font-weight: 600;
+     color: rgb(59, 63, 97);
+ }
+
+ .first-pits a:hover {
+     color: lightseagreen;
+     border-radius: 10px;
+ }
+
+ .first-pir a h3:hover {
+     color: lightseagreen;
+     border-radius: 10px;
+ }
+
+ .first-pit a:hover {
+     color: lightseagreen;
+     border-radius: 10px;
+ }
+
+ .first-pitst a:hover {
+     color: lightseagreen;
+     border-radius: 10px;
+ }
+
+
+ .first-list .first a:hover {
+     background-color: lightgray;
+     border-radius: 10px;
+ }
+
+ .first-lips .lips a:hover {
+     background-color: lightgray;
+     border-radius: 10px;
+ }
+
+ .first-list .second h3:hover {
+     color: lightseagreen;
+ }
+
+ .first-list .third h3:hover {
+     color: lightseagreen;
+ }
+
+ .first-lips .sec h3:hover {
+     color: lightseagreen;
+ }
+
+ .first-pitst ul {
+     display: block;
+ }
+
+ .first-pir ul {
+     display: block;
+ }
+
+ .first-pit ul {
+     display: block;
+ }
+
+ .first-pits ul {
+     display: block;
+ }
+
+ .first-list ul {
+     display: block;
+ }
+
+ .first-lips ul {
+     display: block;
+ }
+
+ .pitst {
+     position: relative;
+ }
+
+ .pir {
+     position: relative;
+ }
+
+ .pit {
+     position: relative;
+ }
+
+ .pits {
+     position: relative;
+ }
+
+ .pitst:hover .first-pitst {
+     display: block;
+ }
+
+ .pir:hover .first-pir {
+     display: block;
+ }
+
+ .pit:hover .first-pit {
+     display: block;
+ }
+
+ .pits:hover .first-pits {
+     display: block;
+ }
+
+
+
+ .lists:hover .firm {
+     display: block;
+
+ }
+
+ .lips:hover .lime {
+     display: block;
+ }
+
+ .ima {
+     border: 1px dashed gray;
+     border-radius: 10px;
+     padding: 5px;
+ }
+
+ .third {
+     display: none;
+ }
+
+ .fork {
+     display: none;
+ }
+
+ .first :hover {
+     display: block;
+ }
+
+ .lip {
+     background-color: rgba(211, 211, 211, 0.16);
+ }
+
+ .first {
+     background-color: rgba(211, 211, 211, 0.16);
+     width: 400px;
+ }
+
+ .pink {
+     background-color: white;
+     width: 200px;
+     height: 50px;
+     border-radius: 50px;
+     color: rgb(30, 30, 54);
+     font-family: sans-serif;
+     font-size: 15px;
+     font-weight: 600;
+ }
+
+ .pink:hover {
+     background-color: lightgray;
+ }
+
+ .blue {
+     background-color: white;
+     width: 200px;
+     height: 50px;
+     border-radius: 50px;
+     color: rgb(30, 30, 54);
+     font-family: sans-serif;
+     font-size: 15px;
+     font-weight: 600;
+ }
+
+ .first-list:has(.first .blue:hover) .second {
+     display: none;
+ }
+
+ .first-list:has(.first .blue:hover) .third {
+     display: block;
+ }
+
+ .first-lips:has(.lips .blue:hover) .sec {
+     display: none;
+ }
+
+ .first-lips:has(.lips .blue:hover) .fork {
+     display: block;
+ }
+
+ .pie h1 {
+     color: rgb(251, 145, 41);
+     font-size: 90px;
+     /* margin: 10% auto; */
+     padding: 1%;
+     font-weight: 900;
+     margin-bottom: 3rem;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+
+ .meat p {
+     font-size: 20px;
+ }
+
+ .meat {
+     display: flex;
+     justify-content: space-between;
+     margin: 5%;
+ }
+
+ .meatpie {
+     width: 200px;
+     height: 60px;
+     background-color: rgb(10, 14, 39);
+     color: white;
+ }
+
+ .pet {
+     display: flex;
+     justify-content: space-around;
+     margin-top: 50px;
+ }
+
+ .pit img {
+     width: 700px;
+     height: 900px;
+     position: relative;
+     top: 100px;
+ }
+
+ .pits img {
+     width: 500px;
+     height: 700px;
+
+ }
+
+ .pits p {
+     font-size: 19px;
+     font-family: sans-serif;
+ }
+
+ .lit {
+     margin: 10%;
+ }
+
+ .lids img {
+     width: 120px
+ }
+
+ .lids {
+     justify-content: space-between;
+     display: flex;
+ }
+
+ .lid p {
+     font-size: 25px;
+     color: rgb(51, 51, 51);
+     font-family: sans-serif;
+ }
+
+ .fri {
+     margin: 5%;
+ }
+
+ .fri h1 {
+     color: #fb9129;
+     font-size: 90px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+ .bem {
+     display: flex;
+     justify-content: space-evenly;
+ }
+
+ .bim img {
+     width: 300px;
+     box-shadow: 0px 0px 50px gray;
+ }
+
+ .beam {
+     margin: 5%;
+ }
+
+ .beam h1 {
+     font-size: 35px;
+     font-family: sans-serif;
+ }
+
+ .beam p {
+     font-size: 20px;
+     font-family: sans-serif;
+     line-height: 35px;
+ }
+
+ .bam {
+     margin: 5%;
+ }
+
+ .bam h1 {
+     font-size: 35px;
+     font-family: sans-serif;
+ }
+
+ .bam p {
+     font-size: 20px;
+     font-family: sans-serif;
+     line-height: 35px;
+ }
+
+ .bam a {
+     color: #fb522e;
+     text-decoration: none;
+     gap: 10px;
+ }
+
+ .icon {
+     font-size: 2rem;
+     display: none;
+ }
+
+ .background {
+     background-color: #f8fafd;
+ }
+
+ .endless {
+     padding: 5%;
+     margin: 4%;
+     font-family: Millik, sans-serif;
+     font-size: 50px;
+     font-weight: 500;
+     line-height: 100px;
+ }
+
+ .store {
+     display: flex;
+     justify-content: space-evenly;
+ }
+
+ .create h3 {
+     font-family: Moderat, sans-serif;
+     font-size: 24px;
+     font-weight: 600;
+     line-height: 29px;
+
+ }
+
+ .create {
+     margin: 5%;
+ }
+
+ .create p {
+     font-family: Moderat, sans-serif;
+     font-size: 20px;
+     font-weight: 300;
+     line-height: 32px;
+ }
+
+ .woman img {
+     width: 800px;
+     height: 800px;
+ }
+
+ .wee {
+     width: 200px;
+     height: 70px;
+     font-size: 17px;
+     color: white;
+     border-radius: 13px;
+     background-color: #0a0e27;
+ }
+
+ .solo {
+     display: flex;
+     justify-content: space-evenly;
+ }
+
+ .statue p {
+     font-family: Moderat, sans-serif;
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 28px
+ }
+
+ .invoice {
+     margin: 10%;
+ }
+
+ .invoice h3 {
+     font-family: Moderat, sans-serif;
+     font-size: 24px;
+     font-weight: 600;
+     line-height: 29px;
+ }
+
+ .invoice p {
+     font-family: Moderat, sans-serif;
+     font-size: 20px;
+     font-weight: 300;
+     line-height: 32px;
+ }
+
+ .invoice a {
+     font-family: Moderat, sans-serif;
+     font-size: 16px;
+     font-weight: 500;
+     line-height: 19px;
+     color: rgb(251, 78, 32);
+     text-decoration: none;
+ }
+
+ .play {
+     font-family: Moderat, sans-serif;
+     font-size: 100px;
+     font-weight: 300;
+     line-height: 110px;
+     margin: 5%;
+ }
+
+ .black {
+     background-color: #1d1d1d;
+ }
+
+ .end {
+     font-family: Millik, sans-serif;
+     font-size: 60px;
+     font-weight: 500;
+     color: white;
+     line-height: 116px;
+     padding: 30px;
+     text-align: center;
+ }
+
+ .wave {
+     font-family: Moderat, sans-serif;
+     font-size: 29px;
+     font-weight: 300;
+     line-height: 32px;
+     color: rgb(255, 255, 255);
+     text-align: center;
+ }
+
+ .send {
+     background-color: #343434;
+     width: 650px;
+     height: 660px;
+     border-radius: 30px;
+     margin: 7%;
+     padding: 40px;
+ }
+
+ .send h1 {
+     font-family: Moderat, sans-serif;
+     font-size: 20px;
+     font-weight: 600;
+     line-height: 32px;
+     color: rgb(255, 255, 255);
+ }
+
+ .send p {
+     font-family: Moderat, sans-serif;
+     font-size: 19px;
+     font-weight: 300;
+     line-height: 28px;
+     color: rgb(255, 255, 255);
+ }
+
+ .send a {
+     font-family: Moderat, sans-serif;
+     font-size: 16px;
+     font-weight: 300;
+     line-height: 28px;
+     color: rgb(255, 255, 255);
+ }
+
+ .border {
+     display: flex;
+     /* justify-content: space-around; */
+ }
+
+ .shop {
+     background-color: #343434;
+     width: 650px;
+     height: 660px;
+     border-radius: 30px;
+     margin: 7%;
+     padding: 40px;
+ }
+
+ .shop h1 {
+     font-family: Moderat, sans-serif;
+     font-size: 20px;
+     font-weight: 600;
+     line-height: 32px;
+     color: rgb(255, 255, 255);
+ }
+
+ .shop p {
+     font-family: Moderat, sans-serif;
+     font-size: 19px;
+     font-weight: 300;
+     line-height: 28px;
+     color: rgb(255, 255, 255);
+ }
+
+ .shop a {
+     font-family: Moderat, sans-serif;
+     font-size: 16px;
+     font-weight: 300;
+     line-height: 28px;
+     color: rgb(255, 255, 255);
+ }
+
+ .find {
+     background-color: #343434;
+     width: 650px;
+     height: 660px;
+     border-radius: 30px;
+     margin: 7%;
+     padding: 40px;
+ }
+
+ .find h1 {
+     font-family: Moderat, sans-serif;
+     font-size: 20px;
+     font-weight: 600;
+     line-height: 32px;
+     color: rgb(255, 255, 255);
+ }
+
+ .find p {
+     font-family: Moderat, sans-serif;
+     font-size: 19px;
+     font-weight: 300;
+     line-height: 28px;
+     color: rgb(255, 255, 255);
+ }
+
+ .find a {
+     font-family: Moderat, sans-serif;
+     font-size: 16px;
+     font-weight: 300;
+     line-height: 28px;
+     color: rgb(255, 255, 255);
+ }
+
+ .easy {
+     margin: 8%;
+ }
+
+ .well h1 {
+     font-family: Millik, sans-serif;
+     font-size: 80px;
+     font-weight: 500;
+     line-height: 86px;
+ }
+
+ .well p {
+     font-family: Moderat, sans-serif;
+     font-size: 22px;
+     line-height: 32px;
+ }
+
+ .ule li {
+     font-family: Moderat, sans-serif;
+     font-size: 18px;
+     padding: 10px;
+     line-height: 26px;
+ }
+
+ .ule button {
+     width: 200px;
+     height: 90px;
+     font-family: Moderat, sans-serif;
+     font-size: 16px;
+     font-weight: 500;
+     color: rgb(255, 255, 255);
+     border-radius: 15px;
+     border: none;
+     cursor: pointer;
+     background-color: #0a0e27;
+ }
+
+ button {
+     cursor: pointer;
+ }
+
+ .global {
+     display: flex;
+     border: 1px solid black;
+ }
+
+ .stat {
+     margin: 10%;
+ }
+
+ .our {
+     margin: 3%;
+ }
+
+ .our h1 {
+     font-family: Moderat, sans-serif;
+     font-size: 30px;
+     font-weight: 400;
+     line-height: 22.4px;
+ }
+
+ .stat h3 {
+     font-family: Moderat, sans-serif;
+     font-size: 20px;
+     font-weight: 600;
+     line-height: 32px;
+ }
+
+ .stat h3 a {
+     font-family: Moderat, sans-serif;
+     font-size: 20px;
+     font-weight: 600;
+     text-decoration: none;
+     line-height: 32px;
+     color: rgb(0, 171, 171);
+ }
+
+ .stat p {
+     font-family: Moderat, sans-serif;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 22.4px;
+ }
+
+ .stat ul li {
+     /* align-items: flex-start; */
+     /* display: flex; */
+     flex-wrap: wrap;
+     /* justify-content: space-between; */
+     /* list-style: none; */
+     /* display: grid; */
+     /* max-width: 40rem; */
+ }
+
+ .ready {
+     background-color: #1d1d1d;
+     width: 70%;
+     position: static;
+     border-radius: 2rem;
+     margin: 15%;
+     padding: 10rem;
+     box-shadow: 2px 2px 40px gray;
+ }
+
+ .ready h1 {
+     font-family: Millik, sans-serif;
+     font-size: 50px;
+     font-weight: 500;
+     line-height: 54px;
+     color: rgb(255, 255, 255);
+ }
+
+ .ready p {
+     font-family: Moderat, sans-serif;
+     font-size: 22px;
+     font-weight: 300;
+     line-height: 32px;
+     color: rgb(255, 255, 255);
+ }
+
+ .fine button {
+     width: 100px;
+     height: 60px;
+     background-color: white;
+     border-radius: 10px;
+ }
+
+ .fine a {
+     text-decoration: none;
+     font-family: Moderat, sans-serif;
+     font-size: 16px;
+     font-weight: 500;
+     line-height: 19px;
+     color: rgb(255, 255, 255);
+ }
+
+ .footer {
+     display: flex;
+     padding: 5%;
+     gap: 90px;
+     justify-content: space-around;
+ }
+
+ .footer li {
+     list-style: none;
+ }
+
+ .footer a:hover {
+     color: rgba(173, 237, 237, 0.9);
+ }
+
+ .product h3 {
+     font-family: Moderat, sans-serif;
+     font-size: 20px;
+     font-weight: 500;
+     line-height: 20px;
+ }
+
+ .product li a {
+     font-family: Moderat, sans-serif;
+     font-size: 18px;
+     font-weight: 300;
+     line-height: 45px;
+     text-decoration: none;
+     color: rgba(29, 29, 29, 0.813);
+ }
+
+ .resources h3 {
+     font-family: Moderat, sans-serif;
+     font-size: 20px;
+     font-weight: 500;
+     line-height: 20px;
+ }
+
+ .resources li a {
+     font-family: Moderat, sans-serif;
+     font-size: 18px;
+     text-decoration: none;
+     color: rgba(29, 29, 29, 0.813);
+     font-weight: 300;
+     line-height: 45px;
+ }
+
+ .developers h3 {
+     font-family: Moderat, sans-serif;
+     font-size: 20px;
+     font-weight: 500;
+     line-height: 20px;
+ }
+
+ .developers li a {
+     font-family: Moderat, sans-serif;
+     font-size: 18px;
+     text-decoration: none;
+     color: rgba(29, 29, 29, 0.813);
+     font-weight: 300;
+     line-height: 45px;
+ }
+
+ .company h3 {
+     font-family: Moderat, sans-serif;
+     font-size: 20px;
+     font-weight: 500;
+     line-height: 20px;
+ }
+
+ .company li a {
+     font-family: Moderat, sans-serif;
+     font-size: 18px;
+     text-decoration: none;
+     color: rgba(29, 29, 29, 0.813);
+     font-weight: 300;
+     line-height: 45px;
+ }
+
+ .contact h3 {
+     font-family: Moderat, sans-serif;
+     font-size: 20px;
+     font-weight: 500;
+     line-height: 20px;
+ }
+
+ .contact li a {
+     font-family: Moderat, sans-serif;
+     font-size: 18px;
+     text-decoration: none;
+     color: rgba(29, 29, 29, 0.813);
+     font-weight: 300;
+     line-height: 45px;
+ }
+
+ .contact p {
+     font-family: Moderat, sans-serif;
+     font-size: 18px;
+     color: rgba(29, 29, 29, 0.813);
+     font-weight: 300;
+     line-height: 45px;
+ }
+
+ .rin {
+     display: flex;
+     justify-content: space-between;
+     border-top: 1px solid gray;
+     border-bottom: 1px solid gray;
+     margin: 5%;
+ }
+
+ .niger p {
+     font-family: Moderat, sans-serif;
+     font-size: 18px;
+     font-weight: 300;
+     margin: 20px;
+     color: rgba(29, 29, 29, 0.813);
+     padding: 10px;
+     line-height: 19px;
+ }
+
+ .x {
+     margin: 20px;
+     padding: 10px;
+ }
+
+ .x a:hover {
+     color: rgba(104, 244, 244, 0.858);
+ }
+
+ .x a {
+     font-family: Moderat, sans-serif;
+     font-size: 16px;
+     font-weight: 300;
+     line-height: 19px;
+     margin: 20px;
+     color: rgba(29, 29, 29, 0.813);
+     text-decoration: none;
+
+ }
+
+ @media(max-width:1200px) {
+     .class {
+         position: static;
+         width: 100%;
+         flex-direction: column;
+     }
+
+     .bem {
+         width: 100%;
+         position: static;
+         flex-direction: column;
+     }
+
+     .pit img {
+         width: 100%;
+         position: static;
+         flex-direction: column;
+     }
+
+     .stat {
+         margin: 0;
+     }
+
+     .our {
+         margin: 0;
+     }
+
+     .woman {
+         width: 100%;
+         position: static;
+         flex-direction: column;
+     }
+
+     .store {
+         width: 100%;
+         position: static;
+         flex-direction: column;
+         margin: 0;
+     }
+
+     .icon {
+         display: block;
+         text-align: right;
+     }
+
+     .btn {
+         display: none;
+     }
+
+     .list {
+         display: none;
+     }
+
+     .pits img {
+         width: 100%;
+         position: static;
+         flex-direction: column;
+     }
+ }
+
+ @media(max-width:1030px) {
+     .pit img {
+         width: 100%;
+         flex-direction: column;
+         position: static;
+     }
+
+     .pits img {
+         width: 100%;
+         flex-direction: column;
+         position: static;
+     }
+
+     .icon {
+         font-size: 40px;
+         margin: 29px;
+     }
+
+     .flutter h1 a {
+         font-size: 50px;
+     }
+ }
+
+ @media(max-width:1000px) {
+     .container {
+         width: 100%;
+         padding: 0;
+         margin: 0;
+
+     }
+
+     .solo {
+         flex-direction: column;
+         position: static;
+         width: 100%;
+     }
+
+     button {
+         width: 100px;
+     }
+
+     .pit img {
+         width: 100%;
+         /* width: 100%; */
+         position: static;
+         flex-direction: column;
+     }
+
+     .pits img {
+         width: 100%;
+         /* width: 100%; */
+         position: static;
+         flex-direction: column;
+     }
+
+     .woman img {
+         flex-direction: column;
+         position: static;
+         width: 100%;
+     }
+
+     .statue img {
+         flex-direction: column;
+         position: static;
+         width: 100%;
+     }
+ }
+
+ @media(max-width:950px) {
+     .pit img {
+         width: 100%;
+         position: static;
+         flex-direction: column;
+         /* height: 800px; */
+     }
+
+     .pits img {
+         width: 100%;
+         position: static;
+         flex-direction: column;
+     }
+
+     .lit {
+         margin: 0;
+         padding: 44px;
+     }
+
+     .global {
+         flex-direction: column;
+         position: static;
+         width: 100%;
+     }
+
+     .lids {
+         gap: 5px;
+     }
+ }
+
+ @media(max-width:900px) {
+     .lit {
+         flex-direction: column;
+         position: static;
+         width: 100%;
+         /* margin: auto; */
+     }
+
+     .lids {
+         gap: 50px;
+         display: block;
+         line-height: 70px;
+     }
+
+     .ready {
+         padding: 5rem 2rem 6rem;
+     }
+ }
+
+ @media(max-width:850px) {
+     .pit img {
+         /* width: 350px; */
+         width: 100%;
+         position: static;
+         flex-direction: column;
+     }
+
+     .play p {
+         font-size: 3rem;
+         line-height: 70px;
+     }
+
+     .pits img {
+         /* width: 350px; */
+         width: 100%;
+         position: static;
+         flex-direction: column;
+     }
+
+     .bem {
+         width: 100%;
+         position: static;
+         flex-direction: column;
+     }
+
+     .border {
+         width: 100%;
+         position: static;
+         flex-direction: column;
+     }
+
+ }
+
+ @media(max-width:760px) {
+     .bem {
+         display: block;
+     }
+
+     .footer {
+         width: 100%;
+         flex-direction: column;
+         position: static;
+     }
+
+     .icon {
+         font-size: 40px;
+         margin: 29px;
+     }
+
+     .flutter h1 a {
+         font-size: 50px;
+     }
+     .rin{
+        width: 100%;
+        position: static;
+        flex-direction: column;
+     }
+
+     .bem {
+         width: 100%;
+         position: static;
+         flex-direction: column;
+     }
+ }
+
+ @media(max-width:750px) {
+     .pet {
+         flex-direction: column;
+         position: static;
+         width: 90%;
+         margin: auto;
+     }
+
+     .pit {
+         position: static;
+         width: 100%;
+     }
+
+     .woman img {
+         width: 100%;
+         position: static;
+         flex-direction: column;
+     }
+
+     .border {
+         width: 100%;
+         position: static;
+         flex-direction: column;
+     }
+
+     .pits {
+         position: static;
+         width: 100%;
+         display: flex;
+         flex-direction: column-reverse;
+     }
+
+     .solo {
+         flex-direction: column;
+         position: static;
+         width: 100%;
+     }
+
+     .pit img {
+         width: 100%;
+         position: static;
+         flex-direction: column;
+     }
+
+     .pits img {
+         width: 100%;
+         position: static;
+         flex-direction: column;
+     }
+
+     .end {
+         font-size: 50px;
+         flex-direction: column;
+
+     }
+ }
+
+ @media(max-width:700px) {
+     .endless {
+         font-size: 30px;
+     }
+
+     .send {
+         display: block;
+         width: 300px;
+         flex-direction: column;
+     }
+
+     .border {
+         width: 100%;
+         position: static;
+         flex-direction: column;
+     }
+
+     .shop {
+         display: block;
+         width: 300px;
+         flex-direction: column;
+     }
+
+     .find {
+         display: block;
+         width: 300px;
+         flex-direction: column;
+     }
+
+     .end {
+         width: 100%;
+         position: static;
+         flex-direction: column;
+     }
+ }
+
+ @media(max-width:650px) {
+     .end {
+         font-size: 45px;
+     }
+
+     .woman img {
+         width: 500px;
+         height: 600px;
+     }
+
+     .border {
+         width: 100%;
+         position: static;
+         flex-direction: column;
+     }
+ }
+
+ @media(max-width:600px) {
+     .end h1 {
+         font-size: 80px;
+     }
+
+     .play p {
+         font-size: 2rem;
+         line-height: 50px;
+     }
+
+     .end h1 {
+         font-size: 3rem;
+         line-height: 50px;
+     }
+
+     .well h1 {
+         font-size: 3rem;
+         line-height: 55px;
+     }
+
+     .border {
+         width: 100%;
+         position: static;
+         flex-direction: column;
+     }
+
+     .well p {
+         font-size: 1rem;
+         line-height: 30px;
+     }
+
+     .ready {
+         /* width: 100%; */
+         position: static;
+         flex-direction: column;
+     }
+
+     .fine {
+         width: 100%;
+         position: static;
+         flex-direction: column;
+     }
+
+     .endless h1 {
+         font-size: 3rem;
+         line-height: 60px;
+     }
+
+     .wave p {
+         font-size: 1em;
+         line-height: 40px;
+     }
+
+     .fine {
+         position: static;
+         width: 100%;
+         flex-direction: column;
+     }
+
+     .pits img {
+         width: 100%;
+         position: static;
+         flex-direction: column;
+     }
+
+     .pit img {
+         width: 100%;
+         position: static;
+         flex-direction: column;
+     }
+ }
+
+ @media(max-width:550px) {
+     .pie {
+         flex-direction: column;
+         position: static;
+         width: 100%;
+     }
+
+     .end h1 {
+         font-size: 70px;
+     }
+
+     .woman img {
+         width: 400px;
+         height: 500px;
+     }
+
+     .pie h1 {
+         font-size: 50px;
+     }
+
+     .global {
+         flex-direction: column;
+         position: static;
+         width: 100%;
+     }
+
+     .fri h1 {
+         font-size: 50px;
+         flex-direction: column;
+     }
+
+     .play {
+         font-size: 80px;
+     }
+ }
+
+ @media(max-width:500px) {
+     .well h1 {
+         font-size: 70px;
+         display: block;
+     }
+
+     .border {
+         width: 100%;
+         position: static;
+         flex-direction: column;
+     }
+          .rin{
+        width: 100%;
+        position: static;
+        flex-direction: column;
+     }
+
+     .play p {
+         font-size: 2rem;
+         line-height: 50px;
+     }
+
+     .end h1 {
+         font-size: 3rem;
+         line-height: 50px;
+     }
+
+     .well h1 {
+         font-size: 3rem;
+         line-height: 55px;
+     }
+
+     .well p {
+         font-size: 1rem;
+         line-height: 30px;
+     }
+
+     .ready {
+         /* width: 100%; */
+         position: static;
+         flex-direction: column;
+     }
+
+     .fine {
+         width: 100%;
+         position: static;
+         flex-direction: column;
+     }
+
+     .endless h1 {
+         font-size: 3rem;
+         line-height: 60px;
+     }
+
+     .wave p {
+         font-size: 1em;
+         line-height: 40px;
+     }
+
+     .fine {
+         position: static;
+         width: 100%;
+         flex-direction: column;
+     }
+
+     .end {
+         font-size: 25px;
+         display: block;
+     }
+
+     .end h1 {
+         font-size: 60px;
+     }
+ }
+
+ @media(max-width:450px) {
+     .woman img {
+         width: 100%;
+         position: static;
+         flex-direction: column;
+     }
+
+     .global {
+         flex-direction: column;
+         position: static;
+         width: 100%;
+     }
+
+     .bem {
+         width: 100%;
+         position: static;
+         flex-direction: column;
+     }
+
+     .well h1 {
+         font-size: 60px;
+     }
+
+     .statue img {
+         width: 100%;
+         position: static;
+         flex-direction: column;
+     }
+
+     .solo {
+         display: block;
+     }
+
+     .play p {
+         font-size: 65px;
+         display: block;
+     }
+
+     .endless h1 {
+         font-size: 58px;
+         display: block;
+     }
+
+     .border {
+         width: 100%;
+         position: static;
+         flex-direction: column;
+     }
+
+     .send {
+         width: 90%;
+         position: static;
+         flex-direction: column;
+     }
+
+     .shop {
+         width: 90%;
+         position: static;
+         flex-direction: column;
+     }
+
+     .find {
+         width: 90%;
+         position: static;
+         flex-direction: column;
+     }
+
+     /* .endless h1{
+        font-size: 0.5rem;
+     } */
+ }
+
+ @media(max-width:400px) {
+     .endless h1 {
+         font-size: 50px;
+     }
+
+     .well h1 {
+         font-size: 50px;
+         display: block;
+     }
+
+     .background {
+         position: static;
+         width: 100%;
+         flex-direction: column;
+     }
+
+     .global {
+         flex-direction: column;
+         position: static;
+         width: 100%;
+     }
+
+     .play p {
+         font-size: 2rem;
+         line-height: 50px;
+     }
+
+     .end h1 {
+         font-size: 3rem;
+         line-height: 50px;
+     }
+
+     .well h1 {
+         font-size: 3rem;
+         line-height: 55px;
+     }
+
+     .well p {
+         font-size: 1rem;
+         line-height: 30px;
+     }
+
+     .ready {
+         /* width: 100%; */
+         position: static;
+         flex-direction: column;
+     }
+
+     .fine {
+         width: 100%;
+         position: static;
+         flex-direction: column;
+     }
+
+     .endless h1 {
+         font-size: 3rem;
+         line-height: 60px;
+     }
+
+     .wave p {
+         font-size: 1em;
+         line-height: 40px;
+     }
+
+     .border {
+         width: 100%;
+         position: static;
+         flex-direction: column;
+     }
+
+     .fine {
+         position: static;
+         width: 100%;
+         flex-direction: column;
+     }
+ }
+
+ @media(Max-width:300px) {
+
+     .woman img {
+         width: 100%;
+         position: static;
+         flex-direction: column;
+     }
+
+     .background {
+         position: static;
+         width: 100%;
+         flex-direction: column;
+     }
+
+     .bem {
+         width: 100%;
+         position: static;
+         flex-direction: column;
+     }
+
+     .border {
+         width: 100%;
+         position: static;
+         flex-direction: column;
+     }
+
+     .global {
+         flex-direction: column;
+         position: static;
+         width: 100%;
+     }
+
+     .fine {
+         position: static;
+         width: 100%;
+         flex-direction: column;
+     }
+
+     .play p {
+         font-size: 2rem;
+         line-height: 50px;
+     }
+
+     .end h1 {
+         font-size: 3rem;
+         line-height: 50px;
+     }
+
+     .well h1 {
+         font-size: 3rem;
+         line-height: 55px;
+     }
+
+     .well p {
+         font-size: 1rem;
+         line-height: 30px;
+     }
+
+     .ready {
+         width: 100%;
+         position: static;
+         flex-direction: column;
+     }
+
+     .endless h1 {
+         font-size: 3rem;
+         line-height: 60px;
+     }
+
+     .wave p {
+         font-size: 1em;
+         line-height: 40px;
+     }
+
+     .fine {
+         position: static;
+         width: 100%;
+         flex-direction: column;
+     }
+
+     .statue img {
+         width: 100%;
+         position: static;
+         flex-direction: column;
+     }
+
+     .pit img {
+         width: 100%;
+         position: static;
+         flex-direction: column;
+     }
+
+     .pits img {
+         width: 100%;
+         position: static;
+         flex-direction: column;
+     }
+ }
